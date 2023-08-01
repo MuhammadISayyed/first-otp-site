@@ -1,14 +1,20 @@
 /* The menu */
+*{
+    font-family:'Courier New', Courier, monospace;
+}
 .container{
     display: block;
-    padding: 30px 200px 30px 200px;
+    /* padding: 30px 200px 30px 200px; */
 }
 
 .header-container{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    margin-bottom: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #1f2937;
+    color: white;
 }
 
 ul{
@@ -17,7 +23,7 @@ ul{
 
 .menu-list{
     display: flex;
-    gap: 8px;
+    gap: 25px;
 }
 
 /* The hero section. */
@@ -26,7 +32,10 @@ ul{
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
 }
 
 .hero-image{
@@ -36,6 +45,19 @@ ul{
 
 .hero-text{
     max-width: 800px;
+    /* padding-bottom: 30px; */
+}
+
+.hero-cta{
+    margin-top: 30px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 20px;
 }
 
 /* The images section */
@@ -44,7 +66,9 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .section-images{
@@ -58,27 +82,47 @@ ul{
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 /* The quote's section */
 .quote-container{
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    background-color: #e5e7eb;
+    padding: 140px;
 }
 .author{
     float: right;
 }
 
+.quote{
+    font-size: 25px;
+}
 /* The CTA section */
 .cta-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 200px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
 }
 
 .cta-button{
-    flex-shrink: 0;
+    flex-shrink: 0; border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 25px;
+    color: white;
+    background-color: #3882f6;
 }
 
 .cta-text{
     max-width: 700px;
+    margin: 25px;
 }
