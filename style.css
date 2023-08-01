@@ -1,0 +1,84 @@
+/* The menu */
+.container{
+    display: block;
+    padding: 30px 200px 30px 200px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 200px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu-list{
+    display: flex;
+    gap: 8px;
+}
+
+/* The hero section. */
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+
+.hero-image{
+    height: 300px;
+    width: 800px;
+}
+
+.hero-text{
+    max-width: 800px;
+}
+
+/* The images section */
+.images-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.section-images{
+    width: 150px;
+    height: 150px;
+}
+
+.images-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* The quote's section */
+.quote-container{
+    margin-bottom: 100px;
+}
+.author{
+    float: right;
+}
+
+/* The CTA section */
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button{
+    flex-shrink: 0;
+}
+
+.cta-text{
+    max-width: 700px;
+}

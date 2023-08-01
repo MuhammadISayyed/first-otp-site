@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>My first site with The Odin Project</title>
   </head>
   <body>
@@ -10,7 +11,7 @@
       <!-- The website's header -->
       <div class="header-container">
         <span class="logo">The Logo</span>
-        <ul>
+        <ul class="menu-list">
           <li>Home</li>
           <li>About</li>
           <li>Shop</li>
@@ -28,26 +29,30 @@
           </p>
           <button>Sign up</button>
         </div>
-        <img src="./images/constantinos.jpg" alt="constantinos, Greece" />
+        <img
+          class="hero-image"
+          src="./images/constantinos.jpg"
+          alt="constantinos, Greece"
+        />
       </div>
       <!-- Images section -->
-      <div class="images-container">
-        <div>
-          <h2>This is the images section</h2>
+      <div class="images-section-container">
+        <h2>This is the images section</h2>
+        <div class="images-container">
           <div>
-            <img src="./images/zdenek.jpg" alt="" />
+            <img class="section-images" src="./images/zdenek.jpg" alt="" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div>
-            <img src="./images/flowers.jpg" alt="" />
+            <img class="section-images" src="./images/flowers.jpg" alt="" />
             <p>Voluptatem eveniet nam voluptate saepe optio dignissimos.</p>
           </div>
           <div>
-            <img src="./images/podmore.jpg" alt="" />
+            <img class="section-images" src="./images/podmore.jpg" alt="" />
             <p>Quam sequi adipisci cumque totam, rem.</p>
           </div>
           <div>
-            <img src="./images/sphinx.jpg" alt="" />
+            <img class="section-images" src="./images/sphinx.jpg" alt="" />
             <p>Quibusdam laboriosam exercitationem a quis animi fuga?</p>
           </div>
         </div>
@@ -63,15 +68,17 @@
         <span class="author"> Naguib Mahfouz</span>
       </div>
       <!-- The CTA section -->
-      <div class="container">
-        <h2>This is the CTA section</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sunt
-          temporibus eius aliquid reprehenderit fuga rerum non hic doloremque.
-          Dolore nostrum quibusdam ullam fugiat recusandae corrupti inventore
-          esse hic temporibus.
-        </p>
-        <button>Sign up</button>
+      <div class="cta-container">
+        <div class="cta-text">
+          <h2>This is the CTA section</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sunt
+            temporibus eius aliquid reprehenderit fuga rerum non hic doloremque.
+            Dolore nostrum quibusdam ullam fugiat recusandae corrupti inventore
+            esse hic temporibus.
+          </p>
+        </div>
+        <button class="cta-button">Sign up</button>
       </div>
     </div>
   </body>
